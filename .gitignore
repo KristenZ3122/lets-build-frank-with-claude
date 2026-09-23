@@ -4,6 +4,8 @@ node_modules/
 dist/
 build/
 *.tsbuildinfo
+# A local copy of ui/dist for running Frank with his console outside Docker.
+server/public/
 
 # Local environment. Nothing here belongs in the repo; the class credential
 # lives in a GitHub Actions secret (ADR-010), never in a file.
